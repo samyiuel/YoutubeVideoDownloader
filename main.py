@@ -5,7 +5,7 @@ try:
     video_url = 'https://www.youtube.com/watch?v=pT68FS3YbQ4'
     youtube = pytube.YouTube(video_url)
     video = youtube.streams.first()
-    video.download('/home/luiza/Videos')
+    video.download('/home/samuel/Videos')
     print("Download Successfull !!")
 except:
     print("Something Went Wrong !!")
