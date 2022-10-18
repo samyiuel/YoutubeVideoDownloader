@@ -19,4 +19,4 @@ videos = ['https://www.youtube.com/watch?v=r8OipmKFDeM',
           'https://www.youtube.com/watch?v=oofSnsGkops']
 
 for video in videos:
-    download(video, '/home/luiza/Videos')
+    download(video, '/Desktop')
